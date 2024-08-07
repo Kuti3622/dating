@@ -1,0 +1,74 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+.maindiv {
+  background-color: black;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+.div1 {
+  border: 2px solid;
+  padding: 10px;
+  background-color: black;
+}
+a {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 18px;
+  color: white;
+  text-decoration: none;
+}
+.btn1 {
+  font-size: 15px;
+  color: white;
+  font-weight: bold;
+  background-color: black;
+  border: 2px solid white;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+h2 {
+  color: white;
+  font-size: 30px;
+}
+p {
+  font-weight: bold;
+  color: green;
+}
+.bnt2, .bnt3, .ddd {
+  font-weight: bold;
+  font-size: 15px;
+  padding: 10px 20px;
+  border-radius: 30px;
+  border: 2px solid ;
+  background-color: black;
+  color: white;
+  cursor: pointer;
+  margin: 10px;
+}
+img {
+  width: 100%;
+  max-width: 230px;
+  height: auto;
+  margin: 20px 0;
+}
+@media (max-width: 768px) {
+  h2 {
+      font-size: 24px;
+  }
+  .btn1, .bnt2, .bnt3, .ddd {
+      font-size: 14px;
+      padding: 8px 16px;
+  }
+}
+@media (max-width: 480px) {
+  h2 {
+      font-size: 20px;
+  }
+  .btn1, .bnt2, .bnt3, .ddd {
+      font-size: 12px;
+      padding: 6px 12px;
+  }
+}
